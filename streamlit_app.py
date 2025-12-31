@@ -55,7 +55,7 @@ with col1:
 
 with col2:
     if st.button("NO"):
-        st.warning("Nice try, bae 😌")
+        st.warning("Not this one but nice try, bae 😌")
 
 st.markdown(
     "<div class='footer'>Made with ❤️ for you</div>",
