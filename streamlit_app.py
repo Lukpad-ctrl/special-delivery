@@ -13,10 +13,10 @@ button {
 st.markdown("""
 <style>
 body {
-    background-color: #191970;
+    background-color: #04026e;
 }
 .stApp {
-    background-color: #191970;
+    background-color: #04026e;
     color: white;
     font-family: monospace;
 }
