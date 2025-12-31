@@ -31,7 +31,7 @@ body {
     width: 100%;
     text-align: center;
     font-size: 14px;
-    opacity: 0.8;
+    opacity: 10;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -44,14 +44,18 @@ col1, col2 = st.columns(2)
 
 with col1:
     if st.button("YES"):
-        st.success("I know 💚 Happy New Year  \n"
-    "Thanks for being my fav person  \n"
-    "May this year be full of successful builds"
+        st.success("I know 💚 Happy New Year!  \n"
+    "2026 เป็นปีที่ดี มีความสุขทุกๆวันเลยยย  \n"
+    "แต่ถ้าเจอเรื่องไม่ดีเดี๋ยวเราจัดการมันเอง  \n"
+    "ขอให้แข็งแรงๆไม่ป่วย และรวยๆไว้เลี้ยงเรา  ิ ิ  \n"
+    "May this year be full of successful builds naka  \n"
+    "Rak lea kid-thung  \n"
+    "Lukpad"
         )
 
 with col2:
     if st.button("NO"):
-        st.warning("Nice try 😌")
+        st.warning("Nice try, bae 😌")
 
 st.markdown(
     "<div class='footer'>Made with ❤️ for you</div>",
